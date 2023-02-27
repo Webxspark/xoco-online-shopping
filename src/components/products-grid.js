@@ -1,7 +1,7 @@
 const ProductsGrid = () => {
     return(
         <>
-            <h1>Products grid</h1>
+            <div className="grid grip-cols-4 gap-4"></div>
         </>
     )
 }
