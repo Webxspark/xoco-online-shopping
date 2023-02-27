@@ -1,6 +1,7 @@
 import { Divider } from "antd";
 import heroImg from "../assets/svg/landing-hero-1.svg";
 import AppNav from "../components/nav";
+import ProductsGrid from "../components/products-grid";
 
 const Landing = () => {
     return (
@@ -64,8 +65,8 @@ const Landing = () => {
                             <button className="bg-black border-2 border-black h-auto rounded-lg font-semibold text-white text-md">Explore Now</button>
                         </div>
                     </div>
-
                 </div>
+                <ProductsGrid />
             </div>
         </>
     )
