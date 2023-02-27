@@ -45,7 +45,7 @@ const Landing = () => {
                     </div>
                 </div>
                 <Divider />
-                <div className="grid grid-cols-1 w-screen">
+                <div className="grid grid-cols-1">
                     <div className="w-full flex flex-col justify-center items-center">
                         <h1 className="lg:text-5xl md:text-4xl sm:text-xl hero-text capitalize font-bold"><span>Exclusive</span> Products</h1>
                         <div className="grid grid-cols-2 gap-4">
