@@ -1,7 +1,13 @@
+import Card from './card';
 const ProductsGrid = () => {
-    return(
+    return (
         <>
-            <div className="grid grip-cols-4 gap-4"></div>
+            <div class="grid grid-cols-4 gap-4 space-evenly mx-12 mr-auto pt-6">
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </div>
         </>
     )
 }
