@@ -18,7 +18,7 @@ const ProductPreview = () => {
                             <Link to="/" className="text-gray-500">Home &nbsp;{'>'}&nbsp; Categories </Link> &nbsp;{'>'}&nbsp; <span className="text-gray-900">Product Preview</span>
                         </div>
                         <div className="pt-6 lg:h-auto">
-                            <img className="rounded-md w-full h-3/5" src="https://via.placeholder.com/550x550.png?text=Product+Image" alt="Product Image" />
+                            <img className="rounded-md w-full h-3/5" src="https://via.placeholder.com/730x600.png?text=Product+Image" alt="Product Image" />
                             <div className="grid grid-cols-4 gap-4 pt-4">
                                 <img className="rounded-md" src="https://via.placeholder.com/200x200.png?text=Preview" alt="Product Image" />
                                 <img className="rounded-md" src="https://via.placeholder.com/200x200.png?text=Preview" alt="Product Image" />
