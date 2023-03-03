@@ -38,8 +38,8 @@ const AppNav = () => {
                         </div>
                         <div className="hidden sm:block sm:ml-6 px-16 my-auto">
                             <div className="flex space-x-10">
-                                <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">About</a>
-                                <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Products</a>
+                                <Link to="/about-us" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">About</Link>
+                                <Link to="/products" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Products</Link>
                                 <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Blog</a>
                                 <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Contact</a>
                                 <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">FAQ</a>
@@ -82,8 +82,8 @@ const AppNav = () => {
             {/* Mobile menu, show/hide based on menu state. */}
             <div className={"sm:hidden " + MobileDrawerVisibility} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-200 absolute w-full">
-                    <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">About</a>
-                    <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Products</a>
+                    <Link to="/about-us" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">About</Link>
+                    <Link to="/products" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Products</Link>
                     <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Blog</a>
                     <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
                     <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">FAQ</a>

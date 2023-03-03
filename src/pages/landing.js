@@ -1,4 +1,5 @@
 import { Divider } from "antd";
+import { Link } from "react-router-dom";
 import heroImg from "../assets/svg/landing-hero-1.svg";
 import AppNav from "../components/nav";
 import ProductsGrid from "../components/products-grid";
@@ -12,8 +13,8 @@ const Landing = () => {
                     <div className="flex flex-col justify-center mt-20 lg:pl-24 md:pl-6 px-8">
                         <p className="text-gray-500 lg:text-xl md:lg:text-md sm:text-sm">Absolutely hot collections 🔥</p>
                         <div className="py-2" />
-                        <h1 className="lg:text-6xl md:text-4xl sm:text-xl hero-text capitalize font-bold">The best place to<br /> find and buy <br />amazing <span>products</span></h1>
-                        <p className="text-gray-500 pt-6 lg:text-xl md:lg:text-md sm:text-sm">Get the best deals from hundreds of online stores. Shop smartly and save big with XOCO.</p>
+                        <h1 className="lg:text-6xl text-4xl hero-text capitalize font-bold">The best place to<br /> find and buy <br />amazing <span>products</span></h1>
+                        <p className="text-gray-500 pt-6 lg:text-xl text-md">Get the best deals from hundreds of online stores. Shop smartly and save big with XOCO.</p>
                         <div className="py-5" />
                         <div className="grid grid-cols-2 gap-4">
                             <button onClick={() => { window.scrollTo(0, 750) }} className="bg-black text-white h-18 p-5 rounded-lg hover:backdrop-opacity-30 font-semibold text-sm lg:text-xl sm:text-md md:text-md">Explore Now</button>
@@ -62,7 +63,7 @@ const Landing = () => {
                                     <input type="search" name="q" className="py-2 text-sm text-black bg-gray-100 rounded-lg h-12 pl-10 focus:outline-none focus:bg-gray-200 focus:text-gray-1000" placeholder="Search..." autoComplete="off" />
                                 </div>
                             </div>
-                            <button className="bg-black border-2 border-black h-auto rounded-lg font-semibold text-white text-md">Explore Now</button>
+                            <button className="bg-black border-2 border-black h-auto rounded-lg font-semibold text-white text-md"><Link to={"/products"}>Explore Now</Link></button>
                         </div>
                         <ProductsGrid />
                     </div>

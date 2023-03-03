@@ -14,8 +14,10 @@ const ProductPreview = () => {
             <div className="container pb-12">
                 <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4 mx-8 mt-8">
                     <div className="flex flex-col">
-                        <div className="flex flex-row lg:block md:block hidden">
-                            <Link to="/" className="text-gray-500">Home &nbsp;{'>'}&nbsp; Categories </Link> &nbsp;{'>'}&nbsp; <span className="text-gray-900">Product Preview</span>
+                        <div className="flex flex-row">
+                            <div className="lg:block md:block hidden">
+                                <Link to="/" className="text-gray-500">Home &nbsp;{'>'}</Link>&nbsp; <Link to={'/products'}>Products</Link> &nbsp;{'>'}&nbsp; <span className="text-gray-900">Product Preview</span>
+                            </div>
                         </div>
                         <div className="pt-6 lg:h-auto">
                             <img className="rounded-md w-full h-3/5" src="https://via.placeholder.com/730x600.png?text=Product+Image" alt="Product Image" />
@@ -48,7 +50,7 @@ const ProductPreview = () => {
                             <div className="flex bg-gray-200 w-48 items-center justify-evenly p-1 rounded-full gap-4">
                                 <button className="w-100 text-xl cursor-pointer" onClick={() => { Count == 0 ? setCount(0) : setCount(Count - 1) }}>-</button>
                                 <div className="w-100 cursor-none">{Count}</div>
-                                <button className="w-100 text-xl cursor-pointer" onClick={() => { Count > 11 ? setCount(12): setCount(Count + 1) }}>+</button>
+                                <button className="w-100 text-xl cursor-pointer" onClick={() => { Count > 11 ? setCount(12) : setCount(Count + 1) }}>+</button>
                             </div>
                             <p className="pl-4">Only <span className="text-red-600">12 Items</span> Left! <br />Don't miss it</p>
                         </div>
