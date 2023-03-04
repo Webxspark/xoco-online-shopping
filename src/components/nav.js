@@ -40,7 +40,7 @@ const AppNav = () => {
                             <div className="flex space-x-10">
                                 <Link to="/about-us" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">About</Link>
                                 <Link to="/products" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Products</Link>
-                                <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Blog</a>
+                                <Link to="/blog" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Blog</Link>
                                 <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Contact</a>
                                 <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">FAQ</a>
                             </div>
@@ -84,7 +84,7 @@ const AppNav = () => {
                 <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-200 absolute w-full">
                     <Link to="/about-us" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">About</Link>
                     <Link to="/products" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Products</Link>
-                    <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+                    <Link to="/blog" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Blog</Link>
                     <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
                     <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
                 </div>

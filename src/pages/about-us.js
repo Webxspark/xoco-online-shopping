@@ -1,5 +1,4 @@
 import { LineChartOutlined, NotificationOutlined, SmileOutlined, TrophyOutlined } from "@ant-design/icons";
-import { Divider } from "antd";
 import { useLoadingContext } from "react-router-loading";
 import AppNav from "../components/nav";
 const AboutUs = () => {
@@ -9,7 +8,7 @@ const AboutUs = () => {
         <div>
             <AppNav />
             <div className="my-12 flex flex-col justify-center items-center">
-                <h1 className="lg:text-5xl text-2xl md:text-4xl font-bold text-[#2f353e]">We're Better. Here's Why...</h1>
+                <h1 className="lg:text-5xl text-2xl md:text-4xl font-bold text-[#2f353e] hero-text">We're <span>Better</span>. Here's Why...</h1>
                 <p className="text-[#6c757d] w-100 text-md text-center pt-6 mx-auto px-12 md:text-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus, blandit and cursus varius and magnis sapien</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 px-0 md:px-24 gap-y-12">

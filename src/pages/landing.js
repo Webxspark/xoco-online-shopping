@@ -49,7 +49,7 @@ const Landing = () => {
                 <Divider />
                 <div className="grid grid-cols-1">
                     <div className="w-full flex flex-col justify-center items-center">
-                        <h1 className="lg:text-5xl md:text-4xl sm:text-xl text-md py-4 hero-text capitalize font-bold"><span>Exclusive</span> Products</h1>
+                        <h1 className="lg:text-5xl md:text-4xl text-2xl text-md py-4 hero-text capitalize font-bold"><span>Exclusive</span> Products</h1>
                         <div className="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 gap-4">
                             <div className="flex space-x-0 pt-2">
                                 <div className="relative text-gray-600 focus-within:text-gray-400">
