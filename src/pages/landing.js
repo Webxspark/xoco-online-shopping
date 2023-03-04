@@ -18,7 +18,7 @@ const Landing = () => {
                         <div className="py-5" />
                         <div className="grid grid-cols-2 gap-4">
                             <button onClick={() => { window.scrollTo(0, 750) }} className="bg-black text-white h-18 p-5 rounded-lg hover:backdrop-opacity-30 font-semibold text-sm lg:text-xl sm:text-md md:text-md">Explore Now</button>
-                            <button className="bg-transparent border-2 border-black h-18 p-5 rounded-lg font-semibold text-sm lg:text-xl sm:text-md md:text-md hover:bg-gray-200 hover:text-black">Request a demo</button>
+                            <Link to="/contact-us"><button className="bg-transparent border-2 border-black h-18 p-5 rounded-lg font-semibold text-sm lg:text-xl sm:text-md md:text-md hover:bg-gray-200 hover:text-black">Request a demo</button></Link>
                         </div>
                         <div className="py-4" />
                         <div className="grid grid-cols-2 gap-4">

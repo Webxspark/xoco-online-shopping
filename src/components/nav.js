@@ -41,8 +41,8 @@ const AppNav = () => {
                                 <Link to="/about-us" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">About</Link>
                                 <Link to="/products" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Products</Link>
                                 <Link to="/blog" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Blog</Link>
-                                <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Contact</a>
-                                <a href="#" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">FAQ</a>
+                                <Link to="/contact-us" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">Contact</Link>
+                                <Link to="/faq" className="hover:text-black px-3 py-2 rounded-md text-md font-medium">FAQ</Link>
                             </div>
                         </div>
                         <div className="hidden sm:block sm:ml-6 px-0">
@@ -71,9 +71,9 @@ const AppNav = () => {
                             </div>
                             <div className={"origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 " + ProfileDrawer} role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabIndex={-1}>
                                 {/* Active: "bg-gray-100", Not Active: "" */}
-                                <a href="#" className="block px-4 py-2 text-sm " onClick={updateNavDrawerVisibility} role="menuitem" tabIndex={-1} id="user-menu-item-0">Your Profile</a>
-                                <a href="#" className="block px-4 py-2 text-sm " onClick={updateNavDrawerVisibility} role="menuitem" tabIndex={-1} id="user-menu-item-1">Settings</a>
-                                <a href="#" className="block px-4 py-2 text-sm " onClick={updateNavDrawerVisibility} role="menuitem" tabIndex={-1} id="user-menu-item-2">Sign out</a>
+                                <Link to="/" className="block px-4 py-2 text-sm " onClick={updateNavDrawerVisibility} role="menuitem" tabIndex={-1} id="user-menu-item-0">Your Profile</Link>
+                                <Link to="/" className="block px-4 py-2 text-sm " onClick={updateNavDrawerVisibility} role="menuitem" tabIndex={-1} id="user-menu-item-1">Settings</Link>
+                                <Link to="/" className="block px-4 py-2 text-sm " onClick={updateNavDrawerVisibility} role="menuitem" tabIndex={-1} id="user-menu-item-2">Sign out</Link>
                             </div>
                         </div>
                     </div>
@@ -85,8 +85,8 @@ const AppNav = () => {
                     <Link to="/about-us" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">About</Link>
                     <Link to="/products" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Products</Link>
                     <Link to="/blog" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Blog</Link>
-                    <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
-                    <a href="#" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">FAQ</a>
+                    <Link to="/contact-us" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
+                    <Link to="/faq" className="hover:text-black hover:bg-gray-400 block px-3 py-2 rounded-md text-base font-medium">FAQ</Link>
                 </div>
             </div>
         </nav>

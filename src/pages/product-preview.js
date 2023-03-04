@@ -65,7 +65,7 @@ const ProductPreview = () => {
                                 </div>
                                 <div className="ml-4">
                                     <h1 className="text-lg font-bold">Free Delivery</h1>
-                                    <Link to={'/subscription'}><p className="underline-offset-4 underline">Enter your Postal code for Delivery Availability</p></Link>
+                                    <Link to={'/contact-us'}><p className="underline-offset-4 underline">Enter your Postal code for Delivery Availability</p></Link>
                                 </div>
                             </div>
                             <Divider />
@@ -75,7 +75,7 @@ const ProductPreview = () => {
                                 </div>
                                 <div className="ml-4">
                                     <h1 className="text-lg font-bold">Return Delivery</h1>
-                                    <p className="">Free 30days Delivery Returns. <Link to={'/subscription'}><span className="underline-offset-4 underline">Details</span></Link></p>
+                                    <p className="">Free 30days Delivery Returns. <Link to={'/contact-us'}><span className="underline-offset-4 underline">Details</span></Link></p>
                                 </div>
                             </div>
                         </div>
