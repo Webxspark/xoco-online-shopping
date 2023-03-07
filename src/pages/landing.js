@@ -13,7 +13,7 @@ const Landing = () => {
                     <div className="flex flex-col justify-center mt-20 lg:pl-24 md:pl-6 px-8">
                         <p className="text-gray-500 lg:text-xl md:lg:text-md sm:text-sm">Absolutely hot collections 🔥</p>
                         <div className="py-2" />
-                        <h1 className="lg:text-6xl text-4xl hero-text capitalize font-bold">The best place to<br /> find and buy <br />amazing <span>products</span></h1>
+                        <h1 className="lg:text-6xl text-4xl hero-text capitalize font-bold">The best place to find and buy <br />amazing <span>products</span></h1>
                         <p className="text-gray-500 pt-6 lg:text-xl text-md">Get the best deals from hundreds of online stores. Shop smartly and save big with XOCO.</p>
                         <div className="py-5" />
                         <div className="grid grid-cols-2 gap-4">
