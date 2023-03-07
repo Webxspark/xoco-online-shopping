@@ -18,7 +18,7 @@ const AppNav = () => {
     }
     return (
         <nav className="border-b-[1px] border-gray">
-            <div className="max-w-7xl mx-auto my-4 px-0 sm:px-6 lg:px-0">
+            <div className="max-w-7xl mx-6 my-4lg:px-0">
                 <div className="relative flex items-center justify-between h-16">
                     <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                         {/* Mobile menu button*/}
